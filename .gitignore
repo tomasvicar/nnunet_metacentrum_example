@@ -1,7 +1,12 @@
 data/*
-!data/insert_data.txt
+!data/nnUNet_raw_data/insert_data_TaskXXX.txt
 
 preprocess/*
 !preprocess/preprocessed_data_will_be_here.txt
 
 code/nnUNet
+
+!code/nnUNet/clone_nnUNet_here.txt
+
+results/*
+!results/results_will_be_here.txt

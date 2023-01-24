@@ -15,8 +15,7 @@ cd $CODEDIR
 export PYTHONUSERBASE=$SCRATCHDIR
 export PATH=$PYTHONUSERBASE/bin:$PATH
 export PYTHONPATH=$PYTHONUSERBASE/lib/python3.8/site-packages:$PYTHONPATH
-cd $CODEDIR/nnUNet
-pip install -e .
+pip install -e $CODEDIR/nnUNet
 
 # run python script with RESULTSDIR as input argument (which is then avalible in python)
 
