@@ -6,7 +6,7 @@ preprocess/*
 
 code/nnUNet
 
-!code/nnUNet/clone_nnUNet_here.txt
+!code/clone_nnUNet_here.txt
 
 results/*
 !results/results_will_be_here.txt
