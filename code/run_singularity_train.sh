@@ -24,8 +24,8 @@ export nnUNet_preprocessed=$PREPROCESSDIR
 export RESULTS_FOLDER=$RESULTSDIR
 
 # run nnUNet training
-# 2d or 3d
+# 2d or 3d_fullres
 # TASK ID (502)
 # FOLD number 0, 1, 2, 3, 4, 5, 'all'
 # -c continue training from last epoch
-nnUNet_train 3d nnUNetTrainerV2 502 0
+nnUNet_train 3d_fullres nnUNetTrainerV2 502 0

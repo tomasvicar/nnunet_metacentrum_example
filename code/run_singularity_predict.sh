@@ -24,8 +24,8 @@ export nnUNet_preprocessed=$PREPROCESSDIR
 export RESULTS_FOLDER=$RESULTSDIR
 
 # run nnUNet training
-# -m 2d or 3d
+# -m 2d or 3d_fullres
 # -t TASK ID (502)
 # -i input folder path ($DATADIR/Task502_ALD_Singularity_test/imagesTs)
 # -o output folder path ($RESULTSDIR/predict/Task502_ALD_Singularity_test)
-nnUNet_predict -i $DATADIR/Task502_ALD_Singularity_test/imagesTs -o $RESULTSDIR/predict/Task502_ALD_Singularity_test -t 502 -m 3d
+nnUNet_predict -i $DATADIR/Task502_ALD_Singularity_test/imagesTs -o $RESULTSDIR/predict/Task502_ALD_Singularity_test -t 502 -m 3d_fullres
