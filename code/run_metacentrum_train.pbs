@@ -1,11 +1,12 @@
 #!/bin/bash
-#PBS -N gpu_example
+#PBS -N nnUNet training
 #PBS -q gpu@meta-pbs.metacentrum.cz
-#PBS -l select=1:ncpus=6:ngpus=1:mem=16gb:scratch_local=30gb:gpu_cap=cuda35
+#PBS -l select=1:ncpus=12:ngpus=1:mem=32gb:scratch_local=30gb:gpu_cap=cuda70
 #PBS -l walltime=0:30:00
 #PBS -m ae
 
 # adjust for your computatinal requirements
+
 
 
 # pytorch singularity image path - can be changed to actual version
@@ -37,7 +38,7 @@ DATADIR=$SCRATCHDIR/$(basename "$DATADIR_ORIG")
 PREPROCESSDIR=$SCRATCHDIR/$(basename "$PREPROCESSDIR_ORIG")
 
 
-SCRIPTNAME=$CODEDIR/run_singularity_plan.sh
+SCRIPTNAME=$CODEDIR/run_singularity_train.sh
 # change permisions for running the script
 chmod +x $SCRIPTNAME
 #run sungularity script

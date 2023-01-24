@@ -23,6 +23,9 @@ export nnUNet_raw_data_base=$DATADIR
 export nnUNet_preprocessed=$PREPROCESSDIR
 export RESULTS_FOLDER=$RESULTSDIR
 
-# run planning and preprocessing -t TASK ID (502)
-nnUNet_plan_and_preprocess -t 502 --verify_dataset_integrity
-cp -R $PREPROCESSDIR $PREPROCESSDIR_ORIG/..
+# run nnUNet training
+# 2d or 3d
+# TASK ID (502)
+# FOLD number 0, 1, 2, 3, 4, 5, 'all'
+# -c continue training from last epoch
+nnUNet_train 3d nnUNetTrainerV2 502 0
