@@ -1,8 +1,8 @@
 #!/bin/bash
 #PBS -N gpu_example
 #PBS -q gpu
-#PBS -l select=1:ncpus=12:ngpus=1:mem=32gb:gpu_cap=cuda35:scratch_local=10gb
-#PBS -l walltime=0:30:00
+#PBS -l select=1:ncpus=1:ngpus=1:mem=4gb:gpu_cap=cuda35:scratch_local=1gb
+#PBS -l walltime=0:10:00
 #PBS -m ae
 
 # adjust for your computatinal requirements
