@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N nnUNet training
+#PBS -N nnUNet_training
 #PBS -q gpu@meta-pbs.metacentrum.cz
 #PBS -l select=1:ncpus=12:ngpus=1:mem=32gb:scratch_local=30gb:gpu_cap=cuda70
 #PBS -l walltime=0:30:00
