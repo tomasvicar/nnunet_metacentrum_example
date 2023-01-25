@@ -1,5 +1,6 @@
 data/*
 !data/nnUNet_raw_data/insert_data_TaskXXX.txt
+!data/do_not_rename_nnUNet_raw_data_folder.txt
 
 preprocess/*
 !preprocess/preprocessed_data_will_be_here.txt
