@@ -28,4 +28,4 @@ export RESULTS_FOLDER=$RESULTSDIR
 # -t TASK ID (502)
 # -i input folder path ($DATADIR/Task502_ALD_Singularity_test/imagesTs)
 # -o output folder path ($RESULTSDIR/predict/Task502_ALD_Singularity_test)
-nnUNet_predict -i $DATADIR/Task502_ALD_Singularity_test/imagesTs -o $RESULTSDIR/predict/Task502_ALD_Singularity_test -t 502 -m 3d_fullres
+nnUNet_predict -i $DATADIR/nnUNet_raw_data/Task502_ALD_Singularity_test/imagesTs -o $RESULTSDIR/predict/Task502_ALD_Singularity_test -t 502 -m 3d_fullres

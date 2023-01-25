@@ -8,7 +8,6 @@
 # adjust for your computatinal requirements
 
 
-
 # pytorch singularity image path - can be changed to actual version
 #SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:21.05-py3.SIF
 SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:22.10-py3.SIF
