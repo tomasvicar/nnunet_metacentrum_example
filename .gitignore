@@ -5,7 +5,6 @@ preprocess/*
 !preprocess/preprocessed_data_will_be_here.txt
 
 code/nnUNet
-
 !code/clone_nnUNet_here.txt
 
 results/*

@@ -1,0 +1,1 @@
+Preprocessed data in nnUNet format will be generated here by plan_and_preprocess.

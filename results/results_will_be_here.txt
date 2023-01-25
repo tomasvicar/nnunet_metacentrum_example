@@ -1,0 +1,1 @@
+Results of training will be here in nnUNet folder.
