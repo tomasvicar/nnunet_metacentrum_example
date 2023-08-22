@@ -1,4 +1,4 @@
-# nn-UNet Metacentrum example
+# nnU-Net v2 Metacentrum example (for nnU-Net v1 swtich to other branch)
 
 To run your Pytorch code with GPU on [Metacentrum](https://metavo.metacentrum.cz/) -  you can just add your Python code and your data.
 
