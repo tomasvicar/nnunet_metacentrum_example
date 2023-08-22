@@ -1,4 +1,1 @@
 git clone https://github.com/MIC-DKFZ/nnUNet
-
-
-In setup.py change "sklearn" to "scikit-learn"!!!
