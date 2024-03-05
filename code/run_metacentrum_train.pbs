@@ -10,7 +10,8 @@
 
 # pytorch singularity image path - can be changed to actual version
 #SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:21.05-py3.SIF
-SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.05-py3.SIF
+# SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.05-py3.SIF
+SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.11-py3.SIF
 # code to run is expected to be in same folder you call qsub from
 CODEDIR_ORIG=$PBS_O_WORKDIR
 # data are expected one folder up in folder data
