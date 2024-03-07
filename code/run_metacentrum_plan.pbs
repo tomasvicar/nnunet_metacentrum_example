@@ -5,7 +5,7 @@
 #PBS -l walltime=0:30:00
 #PBS -m ae
 
-# adjust for your computatinal requirements
+# adjust for your computatinal requirement
 
 
 # pytorch singularity image path - can be changed to actual version
