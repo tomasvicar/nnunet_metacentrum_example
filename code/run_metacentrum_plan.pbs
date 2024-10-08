@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N nnUNet_planing
-#PBS -q gpu@meta-pbs.metacentrum.cz
+#PBS -q gpu@pbs-m1.metacentrum.cz
 #PBS -l select=1:ncpus=6:ngpus=1:mem=16gb:scratch_local=30gb:gpu_cap=cuda35
 #PBS -l walltime=0:30:00
 #PBS -m ae
@@ -11,7 +11,8 @@
 # pytorch singularity image path - can be changed to actual version
 #SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:21.05-py3.SIF
 # SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.05-py3.SIF
-SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.11-py3.SIF
+# SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:23.11-py3.SIF
+SINGULARITYFILE=/cvmfs/singularity.metacentrum.cz/NGC/PyTorch\:24.04-py3.SIF
 # code to run is expected to be in same folder you call qsub from
 CODEDIR_ORIG=$PBS_O_WORKDIR
 # data are expected one folder up in folder data
