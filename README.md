@@ -17,7 +17,7 @@ To run your Pytorch code with GPU on [Metacentrum](https://metavo.metacentrum.cz
 3. go to the storage directory with the code
 
 ```
-cd /storage/brno3-cerit/home/username/Metacentum_GPU_Pytorch_example/code
+cd /storage/brno12-cerit/home/username/Metacentum_GPU_Pytorch_example/code
 ```
 
 4. run pbs script
